@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+
+}
+
+
+.maincontainer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+    
+
+
+}
+
+.mid-container {
+
+    padding: 20px;
+    
+
+
+
+}
+
+
+.father-father {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+background: linear-gradient(rgb(138, 217, 241)10%, white  30%);
+}
+
+p#maintext {
+    font-size: 26px;
+    
+}
+
+
+#container {
+
+    display: flex;
+    
+
+    
+
+}
+
+img#avatar {
+    border: solid green 10px;
+    border-radius: 20px;
+    background: linear-gradient(white, gray);
+
+    width: 150px;
+}
+
+.checkbox {
+    margin-top: 12px;
+}
+
+
+
+
+
+input#senha {
+    margin-top: 10px;
+}
+
+#lost-pass {
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.inputs {
+    width: 300px;
+}
+
+#enter {
+    display: flex;
+}
+
+select {
+    margin-left: 10px;
+}
+
+.box {
+
+    margin-right: 200px;
+    display: flex;
+}
+
+#last-text {
+
+    margin-top: 25px;
+    
+    font-size: 14px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#btns {
+    margin-top: 14px;
+    display: flex;
+
+
+}
+
+.but {
+    margin-right: 15px;
+    width: 85px;
+    height: 23px;
+    border-radius: 5px;
+    border: solid 2px;
+    cursor: pointer;
+}
+
+.but:hover {
+    border: solid 2px blue;
+    transition: 0.5s;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    display: flex;
+    gap: 20px;
+}
+
+#small-image{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
